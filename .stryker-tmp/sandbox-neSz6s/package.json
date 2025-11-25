@@ -1,0 +1,32 @@
+{
+  "name": "flight-booking-app",
+  "version": "1.0.0",
+  "description": "This is a full-stack Flight Booking Application built for a university software testing project, demonstrating \"Client-side Bypass Testing\" and \"Mutation Testing\".",
+  "main": "stryker.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:mutation": "stryker run",
+    "test:bypass": "mocha tests/bypass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "chai": "^6.2.1",
+    "@stryker-mutator/core": "^9.3.0",
+    "@stryker-mutator/mocha-runner": "^9.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narayana-srimanth/pro-flight-booking-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/narayana-srimanth/pro-flight-booking-app/issues"
+  },
+  "homepage": "https://github.com/narayana-srimanth/pro-flight-booking-app#readme"
+}
